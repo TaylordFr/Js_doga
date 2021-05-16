@@ -1,0 +1,138 @@
+body {
+    background-image: url(img/hatter.png);
+}
+#cim1 {
+    padding: 10px;
+}
+
+#fo {
+    width: 900px;
+    height: 1190px;
+    background-color: pink;
+    margin: auto;
+    padding: 10px;
+    border: dotted 3px black;
+}
+.mancs {
+    margin-left: 70px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#div2    {
+    height: fit-content;
+    width: 420px;
+    background-color: grey;
+    float: left;
+    padding: 10px;
+}
+
+#div3    {
+    height: fit-content;
+    width: 420px;
+    background-color: grey;
+    float: right;
+    padding: 10px;
+}
+
+#macskak {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+#cimek {
+    font-size: 23px;
+    border: 2px solid black;
+    background-color: pink;
+    width: 320px;
+    font-style: italic;
+}
+
+#macska {
+    height: 190px;
+    width: 190px;
+    margin-left: 50px;
+}
+#macska2 {
+    height: 190px;
+    width: 190px;
+}
+#macska3 {
+    height: 190px;
+    width: 190px;
+}
+#macska4 {
+    height: 190px;
+    width: 190px;
+}
+
+#macska5{
+    display: none;
+    height: 650px;
+    width: 750px;
+    margin:auto;
+}
+#macska6{
+    display: none;
+    height: 650px;
+    width: 750px;
+    margin:auto;
+}
+#macska7{
+    display: none;
+    height: 650px;
+    width: 750px;
+    margin:auto;
+}
+#macska8{
+    display: none;
+    height: 650px;
+    width: 750px;
+    margin:auto;
+}
+#fo2 {
+    height: fit-content;
+    width: 900px;
+    background-color: pink;
+    border: dotted 3px black;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.klassz {
+    position: absolute;
+    right: 580px;
+    top: 1500px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+    display: none;
+}
+
+.klassz:hover {
+    opacity: 1;
+}
+
+.klassz:before, .klassz:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.klassz:before {
+    transform: rotate(45deg);
+}
+
+.klassz:after {
+    transform: rotate(-45deg);
+}
